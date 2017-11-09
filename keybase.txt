@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jpag
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joelpagliuca.me
+  * I am jpag (https://keybase.io/jpag) on keybase.
+  * I have a public key ASCZOhpmeLQ1bsnRAF_Az0LbEIFZOsjVRGdQLRv5_dxMcAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120993a1a6678b4356ec9d1005fc0cf42db1081593ac8d54467502d1bf9fddc4c700a",
+      "host": "keybase.io",
+      "kid": "0120993a1a6678b4356ec9d1005fc0cf42db1081593ac8d54467502d1bf9fddc4c700a",
+      "uid": "9282b365476aac8e2c80401457424e19",
+      "username": "jpag"
+    },
+    "merkle_root": {
+      "ctime": 1510189142,
+      "hash": "7168754872cf88a92cd6f94504d084f43e16a038830ad5f558ec804797f73b49ab01370fe5f819d6d944976d1d34fb9c3aab058822e8fb4cb957fd9ff80a599a",
+      "hash_meta": "a16c0e5337b0ec62f3f75f69c41486bbb4a85ce566bc49b649712e0c01cda28a",
+      "seqno": 1682969
+    },
+    "service": {
+      "hostname": "joelpagliuca.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1510189185,
+  "expire_in": 504576000,
+  "prev": "d1009e0f1ec497b42b0aca236e20adc2e6ad894ed80615857f79367a6199795b",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmToaZni0NW7J0QBfwM9C2xCBWTrI1URnUC0b+f3cTHAKp3BheWxvYWTFA0N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTkzYTFhNjY3OGI0MzU2ZWM5ZDEwMDVmYzBjZjQyZGIxMDgxNTkzYWM4ZDU0NDY3NTAyZDFiZjlmZGRjNGM3MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTkzYTFhNjY3OGI0MzU2ZWM5ZDEwMDVmYzBjZjQyZGIxMDgxNTkzYWM4ZDU0NDY3NTAyZDFiZjlmZGRjNGM3MDBhIiwidWlkIjoiOTI4MmIzNjU0NzZhYWM4ZTJjODA0MDE0NTc0MjRlMTkiLCJ1c2VybmFtZSI6ImpwYWcifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTAxODkxNDIsImhhc2giOiI3MTY4NzU0ODcyY2Y4OGE5MmNkNmY5NDUwNGQwODRmNDNlMTZhMDM4ODMwYWQ1ZjU1OGVjODA0Nzk3ZjczYjQ5YWIwMTM3MGZlNWY4MTlkNmQ5NDQ5NzZkMWQzNGZiOWMzYWFiMDU4ODIyZThmYjRjYjk1N2ZkOWZmODBhNTk5YSIsImhhc2hfbWV0YSI6ImExNmMwZTUzMzdiMGVjNjJmM2Y3NWY2OWM0MTQ4NmJiYjRhODVjZTU2NmJjNDliNjQ5NzEyZTBjMDFjZGEyOGEiLCJzZXFubyI6MTY4Mjk2OX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb2VscGFnbGl1Y2EubWUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUxMDE4OTE4NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJkMTAwOWUwZjFlYzQ5N2I0MmIwYWNhMjM2ZTIwYWRjMmU2YWQ4OTRlZDgwNjE1ODU3Zjc5MzY3YTYxOTk3OTViIiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RACgxkBz3DGGoyfwrLnHN374DfSpBmMKZLMa4w7An+4bXxeWsHMmViTWU0NrgGjwl0ow9qzEFseIPTl1RjLkZ0AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAEq8/WQjz6dqxPn0zEqleHEX1pQrCKHR95MnZUVCjnPo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jpag
+
+==================================================================
