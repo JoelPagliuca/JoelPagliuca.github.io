@@ -1347,6 +1347,13 @@ ul.icons {
     line-height: 2em;
     text-align: center;
     border: 0; }
+ul.tool-list li {
+  display: inline-block; }
+ul.tool-list li:before {
+  content: '\00a0\2022\00a0\00a0';
+  color: #999;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px; }
 
 ol.default {
   list-style: decimal;
@@ -1653,6 +1660,8 @@ button,
       background-color: #ecf1f1; }
     #main > section.four {
       background-color: #e8edec; }
+    #main > section.five {
+      background-color: #dbe0df; }
 
 /* Wide */
 @media screen and (min-width: 961px) and (max-width: 1880px) {
