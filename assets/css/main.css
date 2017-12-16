@@ -1353,7 +1353,9 @@ ul.tool-list li:before {
   content: '\00a0\2022\00a0\00a0';
   color: #999;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 14px; }
+  font-size: 28px; }
+ul.tool-list li:first-child:before {
+  content: ''; }
 
 ol.default {
   list-style: decimal;
