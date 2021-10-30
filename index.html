@@ -1,255 +1,76 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- Headers courtesy of https://realfavicongenerator.net/ -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="theme-color" content="#2F4254">
-		<!-- HTTP Headers I can't add to the server -->
-		<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; child-src 'none'; upgrade-insecure-requests; "> -->
-		<!--CloudFlare has this covered atm <meta http-equiv="Strict-Transport-Security" content="max-age 31536000; includeSubdomains;"> -->
-
-		<title>Joel Pagliuca</title>
+		<link rel="manifest" href="/favicons/site.webmanifest">
+		<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#222629">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#e27689">
+		<!-- -->
+		
+		<title>Jpag</title>
 
 		<!-- OpenGraph tags -->
 		<meta property="og:title" content="Jpag" />
 		<meta property="og:site_name" content="JoelPagliuca.me" />
-		<meta property="og:description" content="Software security and quality enthusiast with a passion for DevSecOps" />
+		<meta property="og:description" content="Security Engineer with a passion for DevSecOps" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://JoelPagliuca.me" />
-		<meta property="og:image" content="https://JoelPagliuca.me/images/profile.jpg" />
+		<meta property="og:image" content="https://JoelPagliuca.me/profile.jpg" />
 
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css" integrity="sha512-tk4nGrLxft4l30r9ETuejLU0a3d7LwMzj0eXjzc16JQj+5U1IeVoCuGLObRDc3+eQMUcEQY1RIDPGvuA7SNQ2w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./main.css" />
 	</head>
 	<body>
-
-		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/profile.jpg" alt="" /></span>
-							<h1 id="title">Joel Pagliuca</h1>
-							<p>Application Security</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<!-- <li><a href="#experience" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-cog">Experience</span></a></li> -->
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#tools" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench">Toolkit</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/JoelPagliuca" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://twitter.com/joelpagliuca" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://linkedin.com/in/joel-pagliuca" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://medium.com/@pagliucajoel" class="icon fa-medium"><span class="label">Medium</span></a></li>
-						</ul>
-
-				</div>
-
+		<div id="main">
+			<h1>Hey <i class="fas fa-hand-paper" style="margin-left: 0.2em;"></i></h1>
+			
+			<div class="section">
+				<i class="fas fa-user" style="margin-right: 0.2em;"></i> I'm Joel from Melbourne
+			</div>
+			
+			<div class="section">
+				I'm an Ecosystem Security Engineer at
+				<i class="fab fa-atlassian" style="margin-right: 0.2em;"></i>Atlassian.
+				I've also worked on security teams at MYOB and Commonwealth Bank
+			</div>
+			
+			<div class="section">
+				I boulder, knit and always have a tech side project
+				<i class="fas fa-laptop" style="margin-left: 0.25em;"></i>
 			</div>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Joel Pagliuca</strong></h2>
-								<p>I'm a Software security and quality enthusiast with a passion for DevOps and automation</p>
-							</header>
-
-							<footer>
-								<a href="#about" class="button scrolly">Learn more</a>
-							</footer>
-
-						</div>
-					</section>
-
-					
-				<!-- About Me -->
-					<section id="about" class="two">
-						<div class="container">
-							
-							<header>
-								<h2>About Me</h2>
-							</header>
-							
-							<a href="#" class="image featured left"><img src="images/profile-orig.jpg" alt="" /></a>
-							
-							<p>I like building, hacking and scripting. I've got heaps of hobbies ranging from
-								bouldering to juggling to playing guitar. Currently I'm an Application Security Engineer at 
-								MYOB.
-							</p>
-								
-						</div>
-					</section>
-				
-				<!-- Experience -->
-					<!-- <section id="experience" class="three">
-						<div class="container">
-							
-							<header>
-								<h2>Experience</h2>
-							</header>
-							
-							<p>Here are some things I did
-							</p>
-								
-						</div>
-					</section> -->
-					
-						
-				<!-- Portfolio -->
-					<section id="portfolio" class="four">
-						<div class="container">
-							
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-							
-							<p>
-                                Also in my spare time I do a lot of coding. Here's some of my side projects
-								hosted on GitHub
-							</p>
-							
-							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="https://github.com/JoelPagliuca/trashbet" class="image fit"><img src="images/trashbet.png" alt="" /></a>
-										<header>
-											<h3>Trashbet</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/JoelPagliuca/Card-Game/tree/dev" class="image fit"><img src="images/uno.png" alt="" /></a>
-										<header>
-											<h3>Card Game</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="https://github.com/JoelPagliuca/Conman" class="image fit"><img src="images/conman.png" alt="" /></a>
-										<header>
-											<h3>Conman</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/JoelPagliuca/recipi-2017" class="image fit"><img src="images/recipi.png" alt="" /></a>
-										<header>
-											<h3>Recipi</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="https://github.com/JoelPagliuca/android-separator" class="image fit"><img src="images/android-separator.png" alt="" /></a>
-										<header>
-											<h3>Android Separator</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-							
-						</div>
-					</section>
-				
-				<!-- Toolkit -->
-					<section id="tools" class="five">
-						<div class="container">
-
-							<header>
-								<h2>Toolkit</h2>
-							</header>
-							<h3>Programming Languages</h3>
-							<ul class="tool-list">
-								<li>Golang</li>
-								<li>Python</li>
-								<li>C#</li>
-								<li>Java</li>
-							</ul>
-							<h3>Frameworks</h3>
-							<ul class="tool-list">
-								<li>AWS SAM</li>
-								<li>Flask</li>
-								<li>Django</li>
-								<li>Flask</li>
-								<li>Dotnet Core 3</li>
-								<li>Android</li>
-								<li>Xposed</li>
-							</ul>
-							<h3>Software / Tools</h3>
-							<ul class="tool-list">
-								<li>Git</li>
-								<li>Docker</li>
-								<li>Buildkite</li>
-								<li>Splunk/SumoLogic</li>
-								<li>Jira</li>
-								<li>ELK Stack</li>
-								<li>Burpsuite</li>
-							</ul>
-						</div>
-					</section>
-
+			<div class="section">
+				Hit me up on any of these platforms and check my projects
+				<i class="fas fa-th-list" style="margin-left: 0.25em;"></i>
 			</div>
 
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Joel Pagliuca. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
+			<div id="icons" class="section">
+				<a href="https://github.com/JoelPagliuca" title="Github">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://twitter.com/joelpagliuca" title="Twitter">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://j-pag.itch.io/" title="Itch.io">
+					<i class="fab fa-itch-io"></i>
+				</a>
+				<a href="https://dev.to/joelpagliuca" title="Dev">
+					<i class="fab fa-dev"></i>
+				</a>
+				<a href="https://linkedin.com/in/joel-pagliuca" title="LinkedIn">
+					<i class="fab fa-linkedin"></i>
+				</a>
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		</div>
 	</body>
 </html>
