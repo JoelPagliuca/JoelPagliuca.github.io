@@ -1,0 +1,71 @@
+body {
+  color: rgb(255, 255, 255);
+  font-family: 'Source Sans Pro';
+  font-size: x-large;
+  margin-top: 2em;
+}
+
+#stripe-bg {
+  background-image: url("./stripe-bg.png");
+  background-size: 10%;  
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  min-width: 1200px;
+  opacity: 0.10;
+  animation: pan 18s linear infinite;
+}
+
+@keyframes pan {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+#main {
+  width: 30%;
+  margin: 0 auto;
+  z-index: 2;
+  background-color: green;
+}
+
+@media (max-width: 1024px) {
+  #main {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #e27689;
+}
+
+.section {
+  /* background-color: aquamarine; */
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#icons {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#section, a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0.3em;
+  color: #41484c;
+}
