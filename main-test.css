@@ -1,23 +1,47 @@
+:root {
+  --white: #f7fff7;
+  --red-mid: #8c1821;
+  --red-light: #e71839;
+  --red-dark: #311821;
+  --purple-dark: #522152;
+  --grey-1: #292139;
+  --grey-2: #636b7b;
+}
+
 body {
-  color: rgb(255, 255, 255);
-  font-family: 'Source Sans Pro';
-  font-size: x-large;
-  margin-top: 2em;
+  color: var(--white);
+  font-family: 'Tahoma', sans-serif;
+  font-size: larger;
+  margin-top: 4em;
 }
 
 #stripe-bg {
-  background-image: url("./stripe-bg.png");
-  background-size: 10%;  
   position: absolute;
   left: 50%;
   top: 0px;
   translate: -50% 0%;
-  z-index: 1;
+  z-index: -1;
   height: 100%;
   width: 100%;
-  min-width: 1200px;
-  opacity: 0.10;
-  animation: pan 18s linear infinite;
+  background-color: var(--grey-1);
+}
+
+#stripe-fg {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    111deg,
+    var(--grey-2) 25%,
+    var(--grey-1) 25%,
+    var(--grey-1) 50%,
+    var(--grey-2) 50%,
+    var(--grey-2) 75%,
+    var(--grey-1) 75%,
+    var(--grey-1) 100%
+  );
+  background-size: 17.14px 44.65px;
+  box-shadow: inset 0.25rem 0.5rem 3rem 0.25rem var(--grey-1);
+  animation: pan 140s linear infinite;
 }
 
 @keyframes pan {
@@ -31,29 +55,32 @@ body {
 }
 
 #main {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   z-index: 2;
-  background-color: green;
+  background-color: var(--red-mid);
+  border-radius: 0.5rem;
+  border-color: var(--grey-1);
+  border-width: 0.25rem;
+  border-style: solid;
+  padding: 1rem;
+  padding-top: 0.25rem;
+  box-shadow: 12px 25px 50px 12px var(--red-dark);
 }
 
 @media (max-width: 1024px) {
   #main {
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
   }
 }
 
 h1 {
   font-weight: bolder;
-}
-
-a:hover {
-  color: #e27689;
+  font-family: 'Lucidia', monospace;
 }
 
 .section {
-  /* background-color: aquamarine; */
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -61,11 +88,19 @@ a:hover {
 #icons {
   text-align: center;
   font-size: 1.25em;
+  z-index: 10;
 }
 
-#section, a {
+#section,
+a {
   color: inherit;
   text-decoration: none;
   margin: 0.3em;
-  color: #41484c;
+  color: var(--grey-1);
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover {
+  color: var(--white);
 }
