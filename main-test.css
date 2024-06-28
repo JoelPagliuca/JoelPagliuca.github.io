@@ -41,7 +41,7 @@ body {
   );
   background-size: 17.14px 44.65px;
   box-shadow: inset 0.25rem 0.5rem 3rem 0.25rem var(--grey-1);
-  animation: pan 140s linear infinite;
+  animation: pan 240s linear infinite;
 }
 
 @keyframes pan {
@@ -55,7 +55,7 @@ body {
 }
 
 #main {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   z-index: 2;
   background-color: var(--red-mid);
@@ -70,7 +70,7 @@ body {
 
 @media (max-width: 1024px) {
   #main {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 }
