@@ -65,7 +65,7 @@ body {
   border-style: solid;
   padding: 1rem;
   padding-top: 0.25rem;
-  box-shadow: 12px 25px 50px 12px var(--red-dark);
+  box-shadow: 6px 12px 40px 12px var(--red-dark);
 }
 
 @media (max-width: 600px) {
