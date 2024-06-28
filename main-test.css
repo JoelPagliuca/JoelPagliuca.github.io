@@ -68,10 +68,13 @@ body {
   box-shadow: 12px 25px 50px 12px var(--red-dark);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   #main {
-    width: 60%;
-    margin: 0 auto;
+    width: 80%;
+    font-size: medium;
+  }
+  body {
+    margin-top: 2em;
   }
 }
 
